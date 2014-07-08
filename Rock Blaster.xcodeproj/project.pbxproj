@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AED7FBD196C2AA900E3D1F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AED7FBC196C2AA900E3D1F7 /* Foundation.framework */; };
+		3AED7FBF196C2AA900E3D1F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AED7FBE196C2AA900E3D1F7 /* CoreGraphics.framework */; };
+		3AED7FC1196C2AA900E3D1F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AED7FC0196C2AA900E3D1F7 /* UIKit.framework */; };
+		3AED7FC3196C2AA900E3D1F7 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AED7FC2196C2AA900E3D1F7 /* SpriteKit.framework */; };
+		3AED7FC9196C2AA900E3D1F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AED7FC7196C2AA900E3D1F7 /* InfoPlist.strings */; };
+		3AED7FCB196C2AA900E3D1F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AED7FCA196C2AA900E3D1F7 /* main.m */; };
+		3AED7FCF196C2AA900E3D1F7 /* SPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AED7FCE196C2AA900E3D1F7 /* SPAppDelegate.m */; };
+		3AED7FD2196C2AA900E3D1F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AED7FD0196C2AA900E3D1F7 /* Main.storyboard */; };
+		3AED7FD5196C2AA900E3D1F7 /* SPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AED7FD4196C2AA900E3D1F7 /* SPViewController.m */; };
+		3AED7FD8196C2AA900E3D1F7 /* SPMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AED7FD7196C2AA900E3D1F7 /* SPMyScene.m */; };
+		3AED7FDA196C2AA900E3D1F7 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AED7FD9196C2AA900E3D1F7 /* Spaceship.png */; };
+		3AED7FDC196C2AA900E3D1F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AED7FDB196C2AA900E3D1F7 /* Images.xcassets */; };
+		3AED7FE3196C2AA900E3D1F7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AED7FE2196C2AA900E3D1F7 /* XCTest.framework */; };
+		3AED7FE4196C2AA900E3D1F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AED7FBC196C2AA900E3D1F7 /* Foundation.framework */; };
+		3AED7FE5196C2AA900E3D1F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AED7FC0196C2AA900E3D1F7 /* UIKit.framework */; };
+		3AED7FED196C2AA900E3D1F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AED7FEB196C2AA900E3D1F7 /* InfoPlist.strings */; };
+		3AED7FEF196C2AA900E3D1F7 /* Rock_BlasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AED7FEE196C2AA900E3D1F7 /* Rock_BlasterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AED7FE6196C2AA900E3D1F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AED7FB1196C2AA800E3D1F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AED7FB8196C2AA800E3D1F7;
+			remoteInfo = "Rock Blaster";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3AED7FB9196C2AA800E3D1F7 /* Rock Blaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rock Blaster.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AED7FBC196C2AA900E3D1F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3AED7FBE196C2AA900E3D1F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3AED7FC0196C2AA900E3D1F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3AED7FC2196C2AA900E3D1F7 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		3AED7FC6196C2AA900E3D1F7 /* Rock Blaster-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rock Blaster-Info.plist"; sourceTree = "<group>"; };
+		3AED7FC8196C2AA900E3D1F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3AED7FCA196C2AA900E3D1F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3AED7FCC196C2AA900E3D1F7 /* Rock Blaster-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rock Blaster-Prefix.pch"; sourceTree = "<group>"; };
+		3AED7FCD196C2AA900E3D1F7 /* SPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPAppDelegate.h; sourceTree = "<group>"; };
+		3AED7FCE196C2AA900E3D1F7 /* SPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPAppDelegate.m; sourceTree = "<group>"; };
+		3AED7FD1196C2AA900E3D1F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AED7FD3196C2AA900E3D1F7 /* SPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPViewController.h; sourceTree = "<group>"; };
+		3AED7FD4196C2AA900E3D1F7 /* SPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPViewController.m; sourceTree = "<group>"; };
+		3AED7FD6196C2AA900E3D1F7 /* SPMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPMyScene.h; sourceTree = "<group>"; };
+		3AED7FD7196C2AA900E3D1F7 /* SPMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPMyScene.m; sourceTree = "<group>"; };
+		3AED7FD9196C2AA900E3D1F7 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		3AED7FDB196C2AA900E3D1F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3AED7FE1196C2AA900E3D1F7 /* Rock BlasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rock BlasterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AED7FE2196C2AA900E3D1F7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3AED7FEA196C2AA900E3D1F7 /* Rock BlasterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rock BlasterTests-Info.plist"; sourceTree = "<group>"; };
+		3AED7FEC196C2AA900E3D1F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3AED7FEE196C2AA900E3D1F7 /* Rock_BlasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rock_BlasterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AED7FB6196C2AA800E3D1F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AED7FBF196C2AA900E3D1F7 /* CoreGraphics.framework in Frameworks */,
+				3AED7FC1196C2AA900E3D1F7 /* UIKit.framework in Frameworks */,
+				3AED7FC3196C2AA900E3D1F7 /* SpriteKit.framework in Frameworks */,
+				3AED7FBD196C2AA900E3D1F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AED7FDE196C2AA900E3D1F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AED7FE3196C2AA900E3D1F7 /* XCTest.framework in Frameworks */,
+				3AED7FE5196C2AA900E3D1F7 /* UIKit.framework in Frameworks */,
+				3AED7FE4196C2AA900E3D1F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AED7FB0196C2AA800E3D1F7 = {
+			isa = PBXGroup;
+			children = (
+				3AED7FC4196C2AA900E3D1F7 /* Rock Blaster */,
+				3AED7FE8196C2AA900E3D1F7 /* Rock BlasterTests */,
+				3AED7FBB196C2AA800E3D1F7 /* Frameworks */,
+				3AED7FBA196C2AA800E3D1F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AED7FBA196C2AA800E3D1F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AED7FB9196C2AA800E3D1F7 /* Rock Blaster.app */,
+				3AED7FE1196C2AA900E3D1F7 /* Rock BlasterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AED7FBB196C2AA800E3D1F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AED7FBC196C2AA900E3D1F7 /* Foundation.framework */,
+				3AED7FBE196C2AA900E3D1F7 /* CoreGraphics.framework */,
+				3AED7FC0196C2AA900E3D1F7 /* UIKit.framework */,
+				3AED7FC2196C2AA900E3D1F7 /* SpriteKit.framework */,
+				3AED7FE2196C2AA900E3D1F7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AED7FC4196C2AA900E3D1F7 /* Rock Blaster */ = {
+			isa = PBXGroup;
+			children = (
+				3AED7FCD196C2AA900E3D1F7 /* SPAppDelegate.h */,
+				3AED7FCE196C2AA900E3D1F7 /* SPAppDelegate.m */,
+				3AED7FD0196C2AA900E3D1F7 /* Main.storyboard */,
+				3AED7FD3196C2AA900E3D1F7 /* SPViewController.h */,
+				3AED7FD4196C2AA900E3D1F7 /* SPViewController.m */,
+				3AED7FD6196C2AA900E3D1F7 /* SPMyScene.h */,
+				3AED7FD7196C2AA900E3D1F7 /* SPMyScene.m */,
+				3AED7FD9196C2AA900E3D1F7 /* Spaceship.png */,
+				3AED7FDB196C2AA900E3D1F7 /* Images.xcassets */,
+				3AED7FC5196C2AA900E3D1F7 /* Supporting Files */,
+			);
+			path = "Rock Blaster";
+			sourceTree = "<group>";
+		};
+		3AED7FC5196C2AA900E3D1F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AED7FC6196C2AA900E3D1F7 /* Rock Blaster-Info.plist */,
+				3AED7FC7196C2AA900E3D1F7 /* InfoPlist.strings */,
+				3AED7FCA196C2AA900E3D1F7 /* main.m */,
+				3AED7FCC196C2AA900E3D1F7 /* Rock Blaster-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3AED7FE8196C2AA900E3D1F7 /* Rock BlasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AED7FEE196C2AA900E3D1F7 /* Rock_BlasterTests.m */,
+				3AED7FE9196C2AA900E3D1F7 /* Supporting Files */,
+			);
+			path = "Rock BlasterTests";
+			sourceTree = "<group>";
+		};
+		3AED7FE9196C2AA900E3D1F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AED7FEA196C2AA900E3D1F7 /* Rock BlasterTests-Info.plist */,
+				3AED7FEB196C2AA900E3D1F7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AED7FB8196C2AA800E3D1F7 /* Rock Blaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AED7FF2196C2AA900E3D1F7 /* Build configuration list for PBXNativeTarget "Rock Blaster" */;
+			buildPhases = (
+				3AED7FB5196C2AA800E3D1F7 /* Sources */,
+				3AED7FB6196C2AA800E3D1F7 /* Frameworks */,
+				3AED7FB7196C2AA800E3D1F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rock Blaster";
+			productName = "Rock Blaster";
+			productReference = 3AED7FB9196C2AA800E3D1F7 /* Rock Blaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AED7FE0196C2AA900E3D1F7 /* Rock BlasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AED7FF5196C2AA900E3D1F7 /* Build configuration list for PBXNativeTarget "Rock BlasterTests" */;
+			buildPhases = (
+				3AED7FDD196C2AA900E3D1F7 /* Sources */,
+				3AED7FDE196C2AA900E3D1F7 /* Frameworks */,
+				3AED7FDF196C2AA900E3D1F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AED7FE7196C2AA900E3D1F7 /* PBXTargetDependency */,
+			);
+			name = "Rock BlasterTests";
+			productName = "Rock BlasterTests";
+			productReference = 3AED7FE1196C2AA900E3D1F7 /* Rock BlasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AED7FB1196C2AA800E3D1F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Stone  Preston";
+				TargetAttributes = {
+					3AED7FE0196C2AA900E3D1F7 = {
+						TestTargetID = 3AED7FB8196C2AA800E3D1F7;
+					};
+				};
+			};
+			buildConfigurationList = 3AED7FB4196C2AA800E3D1F7 /* Build configuration list for PBXProject "Rock Blaster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AED7FB0196C2AA800E3D1F7;
+			productRefGroup = 3AED7FBA196C2AA800E3D1F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AED7FB8196C2AA800E3D1F7 /* Rock Blaster */,
+				3AED7FE0196C2AA900E3D1F7 /* Rock BlasterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AED7FB7196C2AA800E3D1F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AED7FC9196C2AA900E3D1F7 /* InfoPlist.strings in Resources */,
+				3AED7FDC196C2AA900E3D1F7 /* Images.xcassets in Resources */,
+				3AED7FDA196C2AA900E3D1F7 /* Spaceship.png in Resources */,
+				3AED7FD2196C2AA900E3D1F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AED7FDF196C2AA900E3D1F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AED7FED196C2AA900E3D1F7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AED7FB5196C2AA800E3D1F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AED7FCB196C2AA900E3D1F7 /* main.m in Sources */,
+				3AED7FD8196C2AA900E3D1F7 /* SPMyScene.m in Sources */,
+				3AED7FD5196C2AA900E3D1F7 /* SPViewController.m in Sources */,
+				3AED7FCF196C2AA900E3D1F7 /* SPAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AED7FDD196C2AA900E3D1F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AED7FEF196C2AA900E3D1F7 /* Rock_BlasterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AED7FE7196C2AA900E3D1F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AED7FB8196C2AA800E3D1F7 /* Rock Blaster */;
+			targetProxy = 3AED7FE6196C2AA900E3D1F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3AED7FC7196C2AA900E3D1F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AED7FC8196C2AA900E3D1F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3AED7FD0196C2AA900E3D1F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AED7FD1196C2AA900E3D1F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AED7FEB196C2AA900E3D1F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AED7FEC196C2AA900E3D1F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AED7FF0196C2AA900E3D1F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3AED7FF1196C2AA900E3D1F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AED7FF3196C2AA900E3D1F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rock Blaster/Rock Blaster-Prefix.pch";
+				INFOPLIST_FILE = "Rock Blaster/Rock Blaster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3AED7FF4196C2AA900E3D1F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rock Blaster/Rock Blaster-Prefix.pch";
+				INFOPLIST_FILE = "Rock Blaster/Rock Blaster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3AED7FF6196C2AA900E3D1F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rock Blaster.app/Rock Blaster";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rock Blaster/Rock Blaster-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Rock BlasterTests/Rock BlasterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3AED7FF7196C2AA900E3D1F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rock Blaster.app/Rock Blaster";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rock Blaster/Rock Blaster-Prefix.pch";
+				INFOPLIST_FILE = "Rock BlasterTests/Rock BlasterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AED7FB4196C2AA800E3D1F7 /* Build configuration list for PBXProject "Rock Blaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AED7FF0196C2AA900E3D1F7 /* Debug */,
+				3AED7FF1196C2AA900E3D1F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AED7FF2196C2AA900E3D1F7 /* Build configuration list for PBXNativeTarget "Rock Blaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AED7FF3196C2AA900E3D1F7 /* Debug */,
+				3AED7FF4196C2AA900E3D1F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3AED7FF5196C2AA900E3D1F7 /* Build configuration list for PBXNativeTarget "Rock BlasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AED7FF6196C2AA900E3D1F7 /* Debug */,
+				3AED7FF7196C2AA900E3D1F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AED7FB1196C2AA800E3D1F7 /* Project object */;
+}
